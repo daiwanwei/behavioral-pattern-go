@@ -6,7 +6,7 @@
 
 ## 專案描述
 
-### concurrency pattern
+### behavioral pattern
 - [x]  visitor
 - [ ]  state
 - [ ]  mediator
