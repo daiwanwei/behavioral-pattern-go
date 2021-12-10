@@ -1,6 +1,6 @@
 package main
 
-import "pattern-golang/behavioral/observer/kobos"
+import "behavioral-pattern-go/observer/kobos"
 
 func main() {
 	book := kobos.Book{

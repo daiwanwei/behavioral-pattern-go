@@ -1,6 +1,8 @@
 package main
 
-import "pattern-golang/behavioral/command/remotes/remotes"
+import (
+	"behavioral-pattern-go/command/remotes"
+)
 
 func main() {
 	remote := remotes.NewRemote()

@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"pattern-golang/behavioral/command/devices"
+	"behavioral-pattern-go/command/devices"
 )
 
 type Off struct {

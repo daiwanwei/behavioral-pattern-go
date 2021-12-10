@@ -1,6 +1,6 @@
 package main
 
-import "pattern-golang/behavioral/visitor/museums"
+import "behavioral-pattern-go/visitor/museums"
 
 func main() {
 	museum := museums.NewMuseum()

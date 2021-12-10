@@ -1,9 +1,9 @@
 package remotes
 
 import (
-	"pattern-golang/behavioral/command/devices"
-	"pattern-golang/behavioral/command/remotes/buttons"
-	"pattern-golang/behavioral/command/remotes/commands"
+	"behavioral-pattern-go/command/devices"
+	"behavioral-pattern-go/command/remotes/buttons"
+	"behavioral-pattern-go/command/remotes/commands"
 )
 
 type Remote struct {

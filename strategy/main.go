@@ -1,8 +1,8 @@
 package main
 
 import (
-	"pattern-golang/behavioral/strategy/logistics"
-	"pattern-golang/behavioral/strategy/shops"
+	"behavioral-pattern-go/strategy/logistics"
+	"behavioral-pattern-go/strategy/shops"
 )
 
 func main() {

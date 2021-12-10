@@ -1,8 +1,8 @@
 package shops
 
 import (
+	"behavioral-pattern-go/strategy/logistics"
 	"fmt"
-	"pattern-golang/behavioral/strategy/logistics"
 )
 
 type SportShop struct {

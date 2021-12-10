@@ -1,6 +1,6 @@
 package buttons
 
-import "pattern-golang/behavioral/command/remotes/commands"
+import "behavioral-pattern-go/command/remotes/commands"
 
 type Button struct {
 	Command commands.Command

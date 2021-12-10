@@ -1,8 +1,8 @@
 package main
 
 import (
+	"behavioral-pattern-go/visitor/museums"
 	"fmt"
-	"pattern-golang/behavioral/visitor/museums"
 )
 
 type American struct {

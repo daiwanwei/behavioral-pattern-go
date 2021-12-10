@@ -1,6 +1,6 @@
 package main
 
-import "pattern-golang/behavioral/chain-responsibilty/hospitals"
+import "behavioral-pattern-go/chain-responsibilty/hospitals"
 
 func main() {
 	hospital := hospitals.NewHospital()

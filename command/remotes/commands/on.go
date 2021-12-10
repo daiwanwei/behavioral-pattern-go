@@ -1,6 +1,6 @@
 package commands
 
-import "pattern-golang/behavioral/command/devices"
+import "behavioral-pattern-go/command/devices"
 
 type On struct {
 	Device devices.Device
