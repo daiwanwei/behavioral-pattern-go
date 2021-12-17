@@ -11,7 +11,7 @@
 - [ ]  state
 - [ ]  mediator
 - [x]  observer
-- [ ]  template
+- [x]  template
 - [ ]  memento
 - [ ]  interpreter
 - [x]  strategy
