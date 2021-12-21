@@ -8,7 +8,7 @@
 
 ### behavioral pattern
 - [x]  visitor
-- [ ]  state
+- [x]  state
 - [ ]  mediator
 - [x]  observer
 - [x]  template
