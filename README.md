@@ -9,7 +9,7 @@
 ### behavioral pattern
 - [x]  visitor
 - [x]  state
-- [ ]  mediator
+- [x]  mediator
 - [x]  observer
 - [x]  template
 - [ ]  memento
