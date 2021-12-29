@@ -1,6 +1,6 @@
 package travel
 
-type CustomTravel interface {
+type customTravel interface {
 	StartOff()
 	Playing()
 	Eating()
@@ -8,12 +8,12 @@ type CustomTravel interface {
 }
 
 type Travel struct {
-	CustomTravel
+	custom customTravel
 }
 
 func (travel *Travel) Traveling() {
-	travel.StartOff()
-	travel.Playing()
-	travel.Eating()
-	travel.GoHome()
+	travel.custom.StartOff()
+	travel.custom.Playing()
+	travel.custom.Eating()
+	travel.custom.GoHome()
 }

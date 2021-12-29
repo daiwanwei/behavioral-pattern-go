@@ -31,9 +31,9 @@ type customPeople interface {
 	Sleep()
 }
 
-type TemplatePeople struct {
+type templatePeople struct {
 }
 
-func (p *TemplatePeople) Hangout() {
+func (p *templatePeople) Hangout() {
 	fmt.Printf("hangout\n")
 }

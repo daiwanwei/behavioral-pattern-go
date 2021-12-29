@@ -1,17 +1,16 @@
-package main
+package travel
 
 import (
-	"behavioral-pattern-go/template/travel"
 	"fmt"
 )
 
 type TaiwanTravel struct {
-	travel.Travel
+	Travel
 }
 
 func NewTaiwanTravel() *TaiwanTravel {
 	t := &TaiwanTravel{}
-	tmpl := travel.Travel{CustomTravel: t}
+	tmpl := Travel{custom: t}
 	t.Travel = tmpl
 	return t
 }

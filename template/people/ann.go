@@ -1,12 +1,11 @@
-package main
+package people
 
 import (
-	"behavioral-pattern-go/template/people"
 	"fmt"
 )
 
 type Ann struct {
-	people.TemplatePeople
+	templatePeople
 }
 
 func (people *Ann) WakeUp() {
